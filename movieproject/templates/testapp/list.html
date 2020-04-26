@@ -1,0 +1,40 @@
+<!DOCTYPE html
+  {%load staticfiles%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="{% static 'css/movie.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya&display=swap" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+<div class="container" align="center">
+    <h1>List Of All Movies</h1>
+    {%if movies_list%}
+    <table>
+        <thead>
+        <th>Rdate</th>
+        <th>Moviename</th>
+        <th>Hero</th>
+        <th>Heroin</th>
+        <th>Rating</th>
+        </thead>
+        {%for movie in movies_list%}
+        <tr>
+            <td>{{movie.rdate}}</td>
+            <td>{{movie.moviename}}</td>
+            <td>{{movie.hero}}</td>
+            <td>{{movie.heroin}}</td>
+            <td>{{movie.rating}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p>There is no table avilable</p>
+    {% endif %}
+</div>
+</body>
+</html>

@@ -24,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/my_repo2" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,10 +40,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1587478623469">
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1587964825424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587478623469" />
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587964825424" />
     <state x="392" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1584503992374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
